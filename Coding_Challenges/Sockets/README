@@ -1,0 +1,1 @@
+This is a 3 script program that demonstrates how to setup a simple TCP between multiple clients. The client scripts can be run either locally on the server machine or on a seperate machine if one knows the host IP and Port for the socket connection.
