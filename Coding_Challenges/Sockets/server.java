@@ -16,8 +16,8 @@ public class server{
 		
 		//Enter server port #
 		//Establish sockets and listen
-		ServerSocket ss = new ServerSocket(5555);
-		ServerSocket sd = new ServerSocket(5556);
+		ServerSocket ss = new ServerSocket(XXXX);
+		ServerSocket sd = new ServerSocket(XXXX);
 		Socket s = ss.accept();
 		Socket d = sd.accept();
 		
@@ -49,22 +49,22 @@ public class server{
 		String serverinp = sc.nextLine();
 		
 		//Send the Server Input to the Clients 1 & 2
-    dos.writeUTF(serverinp);
-    dod.writeUTF(serverinp);
+    		dos.writeUTF(serverinp);
+    		dod.writeUTF(serverinp);
         
-    //Print all integers to the server machine
-    //terminal
-    System.out.println("\n\nInteger Table (See Below)");
-    System.out.println("-----------------------------\n");
-    System.out.println("Server  Input Integer: " + serverinp);
-    System.out.println("Client1 Input Integer: " + client1inp);
-    System.out.println("Client2 Input Integer: " + client2inp);
+    		//Print all integers to the server machine
+    		//terminal
+    		System.out.println("\n\nInteger Table (See Below)");
+   		System.out.println("-----------------------------\n");
+    		System.out.println("Server  Input Integer: " + serverinp);
+    		System.out.println("Client1 Input Integer: " + client1inp);
+   	 	System.out.println("Client2 Input Integer: " + client2inp);
         
-    //Close sockets 
-    s.close();
-    d.close();
-    sc.close();
-    ss.close();
-    sd.close();
-	}
+  	 	//Close sockets 
+    		s.close();
+    		d.close();
+    		sc.close();
+    		ss.close();
+    		sd.close();
+       }
 }
