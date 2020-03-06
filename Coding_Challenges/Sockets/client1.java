@@ -10,8 +10,8 @@ public class client1{
     public static void main(String[] args) throws IOException{ 
     	//Enter IP address of host/server machine
     	//Enter port # of Host/Server machine
-    	InetAddress ip = InetAddress.getByName("127.0.0.1"); 
-        int port = 5555; 
+    	InetAddress ip = InetAddress.getByName("XXXXX"); 
+        int port = XXXX; 
         Scanner sc = new Scanner(System.in); 
   
         //Step 1: Open the socket connection. 
